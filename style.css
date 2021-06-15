@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(
+        180deg,
+        #004280ea 10%,
+        #255ca3 20%,
+        #1294b4 80%,
+        #20B2AA 90%    
+    );
+    min-height: 99vh;
+    width: 99%;
+}
+
+main {
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #001a2b;
+    border-radius: 20px;
+    color:#1db9d4;
+    font-family: Trattatello;
+    font-size: 60px;
+    font-weight: 700;
+    height: 10px;
+    letter-spacing: -0.6px;
+    line-height: 2px;
+    padding: 25px 40px;
+    text-align: center;
+    text-shadow: #1fff1f 2px -2px 2px;
+
+}
+
+.foto-personagem {
+    border-radius: 6px;
+    height:220px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 200px;
+}
+
+.nome-personagem {
+    background-color: #001a2b;
+    border-radius: 4px;
+    color: #f5eff5;
+    font-family: Trattatello;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+    margin-left: 53px;
+    padding: 2px;
+    text-align: center;
+    width: 70%;
+}
+    
